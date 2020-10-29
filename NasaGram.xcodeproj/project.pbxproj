@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4085BEF99B47A08F1E1974 /* Pods_NasaGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C74AF2A86AF0F216E9113E0E /* Pods_NasaGram.framework */; };
+		EA0B876F253B93A5009FAAA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B876E253B93A5009FAAA0 /* AppDelegate.swift */; };
+		EA0B8771253B93A5009FAAA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B8770253B93A5009FAAA0 /* SceneDelegate.swift */; };
+		EA0B8776253B93A5009FAAA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0B8774253B93A5009FAAA0 /* Main.storyboard */; };
+		EA0B8778253B93A9009FAAA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA0B8777253B93A9009FAAA0 /* Assets.xcassets */; };
+		EA0B877B253B93A9009FAAA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA0B8779253B93A9009FAAA0 /* LaunchScreen.storyboard */; };
+		EA0B8784253B942A009FAAA0 /* ScopeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B8783253B942A009FAAA0 /* ScopeViewController.swift */; };
+		EA0B878F253B97DC009FAAA0 /* PhotosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B878D253B97DC009FAAA0 /* PhotosTableViewCell.swift */; };
+		EA0B8790253B97DC009FAAA0 /* PhotosTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA0B878E253B97DC009FAAA0 /* PhotosTableViewCell.xib */; };
+		EA0B8793253B9DE4009FAAA0 /* Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B8792253B9DE4009FAAA0 /* Planets.swift */; };
+		EA0B8796253C3F5F009FAAA0 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B8795253C3F5F009FAAA0 /* UIImageViewExtension.swift */; };
+		EA0B87A0253C7070009FAAA0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B879F253C7070009FAAA0 /* DetailViewController.swift */; };
+		EA0B87AC253E1C9F009FAAA0 /* PlanetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0B87AB253E1C9F009FAAA0 /* PlanetsViewController.swift */; };
+		EA3A90C92543043A00A9E9C4 /* PlanetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A90C82543043A00A9E9C4 /* PlanetTableViewCell.swift */; };
+		EA3A90CC25432E1A00A9E9C4 /* mydata.json in Resources */ = {isa = PBXBuildFile; fileRef = EA3A90CB25432E1900A9E9C4 /* mydata.json */; };
+		EA3A90CF2543419100A9E9C4 /* Infoplanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A90CE2543419100A9E9C4 /* Infoplanet.swift */; };
+		EA3A90E22545DF6300A9E9C4 /* NasaPlanetController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A90E12545DF6300A9E9C4 /* NasaPlanetController.swift */; };
+		EA3A90F52549B8CE00A9E9C4 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A90F42549B8CE00A9E9C4 /* SearchQuery.swift */; };
+		EA3A9109254B0D5700A9E9C4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A9108254B0D5700A9E9C4 /* SearchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C6F4E58590C139CAD7DD1A42 /* Pods-NasaGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaGram.debug.xcconfig"; path = "Target Support Files/Pods-NasaGram/Pods-NasaGram.debug.xcconfig"; sourceTree = "<group>"; };
+		C74AF2A86AF0F216E9113E0E /* Pods_NasaGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NasaGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0B876B253B93A5009FAAA0 /* NasaGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0B876E253B93A5009FAAA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA0B8770253B93A5009FAAA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA0B8775253B93A5009FAAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA0B8777253B93A9009FAAA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA0B877A253B93A9009FAAA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA0B877C253B93A9009FAAA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA0B8783253B942A009FAAA0 /* ScopeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScopeViewController.swift; sourceTree = "<group>"; };
+		EA0B878D253B97DC009FAAA0 /* PhotosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosTableViewCell.swift; sourceTree = "<group>"; };
+		EA0B878E253B97DC009FAAA0 /* PhotosTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosTableViewCell.xib; sourceTree = "<group>"; };
+		EA0B8792253B9DE4009FAAA0 /* Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planets.swift; sourceTree = "<group>"; };
+		EA0B8795253C3F5F009FAAA0 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		EA0B879F253C7070009FAAA0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		EA0B87AB253E1C9F009FAAA0 /* PlanetsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsViewController.swift; sourceTree = "<group>"; };
+		EA3A90C82543043A00A9E9C4 /* PlanetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetTableViewCell.swift; sourceTree = "<group>"; };
+		EA3A90CB25432E1900A9E9C4 /* mydata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mydata.json; sourceTree = "<group>"; };
+		EA3A90CE2543419100A9E9C4 /* Infoplanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infoplanet.swift; sourceTree = "<group>"; };
+		EA3A90E12545DF6300A9E9C4 /* NasaPlanetController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaPlanetController.swift; sourceTree = "<group>"; };
+		EA3A90F42549B8CE00A9E9C4 /* SearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuery.swift; sourceTree = "<group>"; };
+		EA3A9108254B0D5700A9E9C4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		EC4A99957F18480B87DD374F /* Pods-NasaGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NasaGram.release.xcconfig"; path = "Target Support Files/Pods-NasaGram/Pods-NasaGram.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA0B8768253B93A5009FAAA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4085BEF99B47A08F1E1974 /* Pods_NasaGram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B9F1EB33A4BCFBA873BFA73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C74AF2A86AF0F216E9113E0E /* Pods_NasaGram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66B8158A4F41580609CD4519 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6F4E58590C139CAD7DD1A42 /* Pods-NasaGram.debug.xcconfig */,
+				EC4A99957F18480B87DD374F /* Pods-NasaGram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA0B8762253B93A5009FAAA0 = {
+			isa = PBXGroup;
+			children = (
+				EA0B876D253B93A5009FAAA0 /* NasaGram */,
+				EA0B876C253B93A5009FAAA0 /* Products */,
+				66B8158A4F41580609CD4519 /* Pods */,
+				0B9F1EB33A4BCFBA873BFA73 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA0B876C253B93A5009FAAA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B876B253B93A5009FAAA0 /* NasaGram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA0B876D253B93A5009FAAA0 /* NasaGram */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A9111254B0F0F00A9E9C4 /* Delegates */,
+				EA0B879C253C5873009FAAA0 /* Model */,
+				EA0B879B253C585F009FAAA0 /* View */,
+				EA0B8798253C584A009FAAA0 /* Controller */,
+				EA0B8777253B93A9009FAAA0 /* Assets.xcassets */,
+				EA0B8779253B93A9009FAAA0 /* LaunchScreen.storyboard */,
+				EA0B877C253B93A9009FAAA0 /* Info.plist */,
+			);
+			path = NasaGram;
+			sourceTree = "<group>";
+		};
+		EA0B8798253C584A009FAAA0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A90EB25489B2900A9E9C4 /* Cells */,
+				EA0B87A5253D9A3C009FAAA0 /* DetailView */,
+				EA0B8783253B942A009FAAA0 /* ScopeViewController.swift */,
+				EA0B87AB253E1C9F009FAAA0 /* PlanetsViewController.swift */,
+				EA3A9108254B0D5700A9E9C4 /* SearchViewController.swift */,
+				EA3A90E12545DF6300A9E9C4 /* NasaPlanetController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EA0B879B253C585F009FAAA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A90EC25489B8000A9E9C4 /* Extension */,
+				EA0B8774253B93A5009FAAA0 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA0B879C253C5873009FAAA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A910D254B0EAC00A9E9C4 /* Data Model */,
+				EA3A90F72549B8E800A9E9C4 /* Json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA0B87A5253D9A3C009FAAA0 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B879F253C7070009FAAA0 /* DetailViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		EA3A90EB25489B2900A9E9C4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B878E253B97DC009FAAA0 /* PhotosTableViewCell.xib */,
+				EA3A90C82543043A00A9E9C4 /* PlanetTableViewCell.swift */,
+				EA0B878D253B97DC009FAAA0 /* PhotosTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		EA3A90EC25489B8000A9E9C4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B8795253C3F5F009FAAA0 /* UIImageViewExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EA3A90F72549B8E800A9E9C4 /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A90CB25432E1900A9E9C4 /* mydata.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
+		EA3A910D254B0EAC00A9E9C4 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B8792253B9DE4009FAAA0 /* Planets.swift */,
+				EA3A90CE2543419100A9E9C4 /* Infoplanet.swift */,
+				EA3A90F42549B8CE00A9E9C4 /* SearchQuery.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		EA3A9111254B0F0F00A9E9C4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				EA0B876E253B93A5009FAAA0 /* AppDelegate.swift */,
+				EA0B8770253B93A5009FAAA0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA0B876A253B93A5009FAAA0 /* NasaGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA0B877F253B93A9009FAAA0 /* Build configuration list for PBXNativeTarget "NasaGram" */;
+			buildPhases = (
+				E83A33478C4D2A7E5D89F0C2 /* [CP] Check Pods Manifest.lock */,
+				EA0B8767253B93A5009FAAA0 /* Sources */,
+				EA0B8768253B93A5009FAAA0 /* Frameworks */,
+				EA0B8769253B93A5009FAAA0 /* Resources */,
+				00A03F0BD38080B315341884 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NasaGram;
+			productName = NasaGram;
+			productReference = EA0B876B253B93A5009FAAA0 /* NasaGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA0B8763253B93A5009FAAA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					EA0B876A253B93A5009FAAA0 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = EA0B8766253B93A5009FAAA0 /* Build configuration list for PBXProject "NasaGram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA0B8762253B93A5009FAAA0;
+			productRefGroup = EA0B876C253B93A5009FAAA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA0B876A253B93A5009FAAA0 /* NasaGram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA0B8769253B93A5009FAAA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA0B8790253B97DC009FAAA0 /* PhotosTableViewCell.xib in Resources */,
+				EA0B877B253B93A9009FAAA0 /* LaunchScreen.storyboard in Resources */,
+				EA0B8778253B93A9009FAAA0 /* Assets.xcassets in Resources */,
+				EA3A90CC25432E1A00A9E9C4 /* mydata.json in Resources */,
+				EA0B8776253B93A5009FAAA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00A03F0BD38080B315341884 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaGram/Pods-NasaGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NasaGram/Pods-NasaGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NasaGram/Pods-NasaGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E83A33478C4D2A7E5D89F0C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NasaGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA0B8767253B93A5009FAAA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3A90CF2543419100A9E9C4 /* Infoplanet.swift in Sources */,
+				EA0B878F253B97DC009FAAA0 /* PhotosTableViewCell.swift in Sources */,
+				EA0B8796253C3F5F009FAAA0 /* UIImageViewExtension.swift in Sources */,
+				EA0B87AC253E1C9F009FAAA0 /* PlanetsViewController.swift in Sources */,
+				EA0B8784253B942A009FAAA0 /* ScopeViewController.swift in Sources */,
+				EA0B876F253B93A5009FAAA0 /* AppDelegate.swift in Sources */,
+				EA3A90F52549B8CE00A9E9C4 /* SearchQuery.swift in Sources */,
+				EA3A9109254B0D5700A9E9C4 /* SearchViewController.swift in Sources */,
+				EA0B8771253B93A5009FAAA0 /* SceneDelegate.swift in Sources */,
+				EA3A90E22545DF6300A9E9C4 /* NasaPlanetController.swift in Sources */,
+				EA0B8793253B9DE4009FAAA0 /* Planets.swift in Sources */,
+				EA0B87A0253C7070009FAAA0 /* DetailViewController.swift in Sources */,
+				EA3A90C92543043A00A9E9C4 /* PlanetTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA0B8774253B93A5009FAAA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0B8775253B93A5009FAAA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA0B8779253B93A9009FAAA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA0B877A253B93A9009FAAA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA0B877D253B93A9009FAAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA0B877E253B93A9009FAAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA0B8780253B93A9009FAAA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6F4E58590C139CAD7DD1A42 /* Pods-NasaGram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NasaGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selcuks.NasaGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA0B8781253B93A9009FAAA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC4A99957F18480B87DD374F /* Pods-NasaGram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NasaGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.selcuks.NasaGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA0B8766253B93A5009FAAA0 /* Build configuration list for PBXProject "NasaGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0B877D253B93A9009FAAA0 /* Debug */,
+				EA0B877E253B93A9009FAAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA0B877F253B93A9009FAAA0 /* Build configuration list for PBXNativeTarget "NasaGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA0B8780253B93A9009FAAA0 /* Debug */,
+				EA0B8781253B93A9009FAAA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA0B8763253B93A5009FAAA0 /* Project object */;
+}

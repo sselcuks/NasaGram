@@ -1,0 +1,70 @@
+[
+  {
+
+  "title": "Mercury", 
+  "description": "Mercury is the smallest planet in the Solar System.It is the closest planet to the sun. It makes one trip around the Sun once every 87.969 days. Mercury is bright when it is visible from Earth, ranging from −2.0 to 5.5 in apparent magnitude. It cannot be easily seen as it is usually too close to the Sun. Because Mercury is normally lost in the glare of the Sun, Mercury can only be seen in the morning or evening twilight or during a solar eclipse.",
+  
+  "image": "mercury"
+  
+  
+  },
+   {
+
+  "title": "Venus", 
+  "description": "Venus is the second planet from the sun. It has a day longer than a year. The year length of Venus is 225 Earth days. The day length of Venus is 243 Earth days. It is a terrestrial planet because it has a solid, rocky surface like other planets in the inner solar system. Astronomers have known Venus for thousands of years.",
+  
+  "image": "venus"
+  
+  },
+   {
+
+  "title": "Earth", 
+  "description": "Earth is a terrestrial planet. It is the third planet from the Sun. It is the only planet known to have life on it. The Earth formed around 4.5 billion years ago.It is one of four rocky planets on the inside of the Solar System. The other three are Mercury, Venus, and Mars. The large mass of the Sun makes Earth move around it, just as the mass of Earth makes the moon move around it. Earth also turns around in space, so that different parts face the Sun at different times. Earth goes around the Sun once (one year) for every 365​1⁄4 times it turns around (one day).",
+  
+  "image": "earth"
+ 
+
+  },
+   {
+
+  "title": "Mars", 
+  "description": "Mars is the fourth planet from the Sun in the Solar System and the second smallest planet. Mars is a cold terrestrial planet with polar ice caps of frozen water and carbon dioxide.It has the largest volcano in the Solar System, and some very large impact craters. Mars is named after the mythological Roman god of war because it appears of red color.Space probes such as the Viking program landers are the main tools for the exploration of Mars.",
+  "image": "mars"
+  
+  },
+   {
+
+ "title": "Jupiter", 
+ 
+ "description": "Jupiter is the largest planet in the Solar System. It is the fifth planet from the Sun. Jupiter is a gas giant, both because it is so large and made up of gas. The other gas giants are Saturn, Uranus, and Neptune. Jupiter has a mass of 1.8986×1027 kg, or about 318 Earths. This is twice the mass of all the other planets in the Solar System put together. Jupiter can be seen even without the use of telescope",
+  
+  "image": "jupiter"
+
+  },
+ 
+   {
+   "title": "Saturn", 
+  "description": "Saturn is the sixth planet from the Sun in the Solar System. It is the second largest planet in the Solar System, after Jupiter. Saturn is one of the four gas giant planets, along with Jupiter, Uranus, and Neptune. Inside Saturn is probably a core of iron, nickel, silicon and oxygen compounds, surrounded by a deep layer of metallic hydrogen, then a layer of liquid hydrogen and liquid helium and finally, an outer gaseous layer. Saturn has 67 known moons orbiting the planet. 38 are officially named and 29 are waiting to be named. The largest moon is Titan, which is larger in volume than the planet Mercury. Titan is the second-largest moon in the Solar System. The largest moon is Jupiter's moon, Ganymede. There is also a very large system of rings around Saturn. These rings are made of ice with smaller amounts of rocks and dust. Some people believe that the rings were caused from a moon impact or other event. Saturn is about 1,433,000,000 km (869,000,000 mi) on average from the Sun. Saturn takes 29.6 Earth years to revolve around the Sun.",
+  
+  "image": "saturn"
+  
+
+  },
+   {
+
+  "title": "Uranus", 
+  
+  "description": "Uranus is the seventh planet from the Sun in the Solar System. It is a gas giant. It is the third largest planet in the solar system. The planet is made of ice, gases and liquid metal. Its atmosphere contains hydrogen (1H), helium (2He) and methane. The temperature on Uranus is −197 °C (−322.6 °F; 76.1 K) near the top of its atmosphere, but its small solid core (about 55% the mass of Earth) is probably about 4,730 °C (8,540 °F; 5,000 K). The planet is tilted on its axis so much that it is sideways.It has five big moons, many small ones, and a small system of 13 planetary rings. The distance between Uranus and the Sun is about 2.8 billion km. Uranus completes its orbit around the Sun in 84 earth years. It completes a spin around itself in 17 hours and 14 minutes. This means there are about 43,000 Uranian days in one Uranian year.",
+  
+  "image": "uranus"
+
+  },
+    {
+
+  "title": "Neptune", 
+  "description": "Neptune is the eighth and last planet from the Sun in the Solar System. It is a gas giant. It is the fourth largest planet and third heaviest. Neptune has four rings which are hard to see from the Earth. It is seventeen times heavier than Earth and is a little bit heavier than Uranus. It was named after the Roman God of the Sea. Neptune's atmosphere is mostly made up of hydrogen and helium. It also contains small amounts of methane which makes the planet appear blue. Neptune's blue color is much darker compared to the color of Uranus, which has a similar amount of methane, so there might be another reason why Neptune is blue. Neptune also has the strongest winds of any planet in the solar system, measured as high as 2,100 km/h or 1,300 mph.[17]",
+  "image": "neptune"
+
+  },
+  
+]
