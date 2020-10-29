@@ -4,12 +4,12 @@
  
 ### What we have so far here.
  
-- This iOS app show the great images of space and also the story behind those image. The images are from the Nasa APOD Library (Astronomy Picture of the Day).
-- Also the simple information about the our solar system planets.
+- This iOS app show the great images of space and also the story behind those image. Images are from the Nasa APOD Library (Astronomy Picture of the Day).
+- Also the simple information about our solar system planets.
 
 
 
-Work with Alamofire and Kingfisher pod to decode the json and show the images.
+Works with Alamofire and Kingfisher pod to decode the json and show the images.
 
 
 The API resource is here: https://apodapi.herokuapp.com/
